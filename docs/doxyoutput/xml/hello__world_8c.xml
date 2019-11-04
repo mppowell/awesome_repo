@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="hello__world_8c" kind="file" language="C++">
+    <compoundname>hello_world.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="0">
+        <label>src/hello_world.c</label>
+        <link refid="hello__world_8c"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="hello__world_8c_1a32bff09a616cee12a2c61815a990152d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int num_samples</definition>
+        <argsstring></argsstring>
+        <name>num_samples</name>
+        <briefdescription>
+<para>Number of samples. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hello_world.c" line="4" column="1" bodyfile="src/hello_world.c" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="hello__world_8c_1a6e15a82b2b108524783ac719e8eb4da5" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char rx_config</definition>
+        <argsstring></argsstring>
+        <name>rx_config</name>
+        <briefdescription>
+<para>The receive configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hello_world.c" line="6" column="1" bodyfile="src/hello_world.c" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="hello__world_8c_1aae08d1fa490e8889c83d5f58fabeac5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void awesome_func</definition>
+        <argsstring>(char foobar)</argsstring>
+        <name>awesome_func</name>
+        <param>
+          <type>char</type>
+          <declname>foobar</declname>
+        </param>
+        <briefdescription>
+<para>The awesome function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hello_world.c" line="9" column="1" bodyfile="src/hello_world.c" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="hello__world_8c_1a6288eba0f8e8ad3ab1544ad731eb7667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Main entry-point for this application. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Marc, 11/4/2019.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hello_world.c" line="19" column="1" bodyfile="src/hello_world.c" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#import<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_samples;</highlight></codeline>
+<codeline lineno="6"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>rx_config;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>awesome_func<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>foobar)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Hello<sp/>World<sp/>%c&quot;</highlight><highlight class="normal">,<sp/>foobar);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>main(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>awesome_func(</highlight><highlight class="charliteral">&apos;!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/hello_world.c"/>
+  </compounddef>
+</doxygen>
